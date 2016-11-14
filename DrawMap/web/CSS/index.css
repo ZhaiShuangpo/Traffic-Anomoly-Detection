@@ -1,0 +1,54 @@
+.container {
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.DrawMap {
+    width: 74%;
+    height: 74%;
+    border: 2px solid #5bc0de;
+    /*background-color: #8b211e;*/
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin: 2px;
+}
+
+.controller {
+    width: 25%;
+    height: 74%;
+    border: 2px solid #014682;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 2px;
+}
+
+.selection {
+    width: 99%;
+    height: 8%;
+    border: 2px solid #014682;
+    position: absolute;
+    top: 0px;
+    margin: 2px;
+}
+
+.collision {
+    width: 99%;
+    height: 90%;
+    border: 2px solid #014682;
+    /*float: right;*/
+    /*background-color: #000000;*/
+    position: absolute;
+    bottom: 0px;
+    margin: 2px;
+}
+
+.statistics {
+    width: 99.7%;
+    height: 24%;
+    border: 2px solid #5cb85c;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
